@@ -29,7 +29,9 @@ $(document).ready(function() {
     }); 
     $('p').click(function(){
         $('p').effect('slide', {times:3}, 500);          
-    }); 
+    });
+
+    $('p').draggable(); 
 });
 
 
