@@ -27,6 +27,9 @@ $(document).ready(function() {
     $('img').click(function(){
         $('img').effect('bounce', {times:3}, 500);          
     }); 
+    $('p').click(function(){
+        $('p').effect('slide', {times:3}, 500);          
+    }); 
 });
 
 
