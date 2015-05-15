@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    $('div').mouseleave(function(){
-        $('div').fadeTo('fast',0.2);
-    });
+    $('div').click(function(){
+        $('div').addClass('red');
+        $('div').fadeOut('fast');
+        $('p').fadeTo('fast',0.2);
+    });   
 });
+
