@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('div').click(function(){
         $('div').addClass('red');
-        $('div').fadeOut('fast');
+        $(this).effect('explode');
         $('p').fadeTo('fast',0.2);
     }); 
     $(document).keydown(function(key) {
