@@ -33,3 +33,10 @@ div {
     background-image:     -ms-linear-gradient(left, #330000, #CC0000);
     background-image:      -o-linear-gradient(left, #330000, #CC0000);
 }
+
+img {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
