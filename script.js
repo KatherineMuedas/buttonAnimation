@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('div').click(function(){
         $('div').addClass('red');
-        $(this).effect('explode');
+        $('div').effect('explode');
         $('p').fadeTo('fast',0.2);
     }); 
     $(document).keydown(function(key) {
@@ -23,7 +23,10 @@ $(document).ready(function() {
             $('img').animate({top: "+=10px"}, 'fast');
             break;
         }
-    });  
+    }); 
+    $('img').click(function(){
+        $('img').effect('bounce', {times:3}, 500);          
+    }); 
 });
 
 
